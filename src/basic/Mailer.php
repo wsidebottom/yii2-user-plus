@@ -3,14 +3,14 @@
 namespace johnitvn\userplus\basic;
 
 use Yii;
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class to do all of job related to send email
  * @author John Martin <john.itvn@gmail.com>
  * @since 1.0.0
  */
-class Mailer extends Object {
+class Mailer extends BaseObject {
 
     /**
      * @var string 
